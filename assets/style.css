@@ -1,0 +1,44 @@
+body {
+    background-color: #f8c3cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 50px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.buttons button {
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+#button-sim {
+    position: relative;
+}
+
+#button-nao {
+    position: relative;
+}
